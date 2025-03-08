@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semantic Tags Example</title>
+    <style>
+        body {
+            font-family: arial,sans-serif;
+        }
+        header{
+            text-align: center;
+            background-color: aqua;
+            padding: 2px;
+        }
+        nav{
+            text-align: center;
+            padding:3px;
+            background-color:rgb(178, 241, 241);
+        }
+        nav a{
+            margin:2px;
+            text-decoration: none;
+            color: black;
+        }
+        figure {
+            text-align:center;
+        }main{
+            padding: 20px;
+            display: flex;
+            gap: 20px; 
+        }
+        article{
+            flex: 2;
+            border: 1px solid #ccc;
+            padding: 15px;
+            background-color: #8fe3d4;
+        }   
+        aside{
+            flex: 1;
+            border: 1px solid #f0abab;
+            padding: 15px;
+            background-color: #a4e1f9;
+        }
+        footer{
+            text-align: center;
+            background-color: bisque;
+            padding:10px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome To My Website</h1>            
+        </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <article>
+            <h2>About us</h2>
+            <p>Welcome to our website.We are dedicated to providing the best services to our customers.Leran more about our journey and values.</p>
+            <figure>
+                <img src="https://d2ms8rpfqc4h24.cloudfront.net/Guide_to_Full_Stack_Development_000eb0b2d0.jpg" alt="image" style="width:600px">
+                <figcaption>Our Team at Work</figcaption>
+            </figure>
+        </article>
+        <aside>
+            <h2>Latest News</h2>
+            <p>Check out our latest updates in the website.</p>
+        </aside>
+    </main>
+    <footer>
+        <p>@My Website | All Rights Reserved</p>
+        </footer>
+</body>
+</html>
